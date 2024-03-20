@@ -1,0 +1,49 @@
+/* selector universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Selector de etiqueta: son todas las etiquetas en si */
+h1,h3,h5{
+    color: red;
+    text-align: center;
+}
+h2,h4,h6{
+    color: blue;
+    text-align: center;
+}
+a{
+    color: rgb(0, 42, 255);
+    background-color: aquamarine;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+p{
+    color: blueviolet;
+    text-align: justify;
+}
+/* Selector de id */
+#title_page{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: brown;
+}
+/* selector de clase */
+.text{
+    background-color: bisque;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.text:hover{
+    background-color: #000;
+    color: #ffffff;
+    box-shadow: 0px 0px 49px -13px rgb(255, 3, 255);
+    margin: 5px;
+    transition: all ease-in-out .5s;
+}
